@@ -1,3 +1,5 @@
+@import url('fuentes.css');
+
 body {
 	padding-top: 50px;
   display: flex;
@@ -14,12 +16,12 @@ main {
 }
       
 h1{
-	font-family: Source Sans Pro;
+	font-family: sourceSans-bold;
 	font-size: 70px;
 }
 
 h5, p{
-	font-family: Source Sans Pro light;
+	font-family: sourceSans-light;
 }
 
 .btn{
