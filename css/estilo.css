@@ -1,0 +1,45 @@
+body {
+	padding-top: 50px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  background-image: url(../img/lp-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main {
+  flex: 1 0 auto;
+}
+      
+h1{
+	font-family: Source Sans Pro;
+	font-size: 70px;
+}
+
+h5, p{
+	font-family: Source Sans Pro light;
+}
+
+.btn{
+	margin-bottom: 50px;
+}
+
+.colores{
+	animation-name: colores;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes colores{
+    0%   {color: #E84A4A}
+    25%  {color: #EE933A}
+    50%  {color: #ECEA40}
+    75%  {color: #7FE855}
+    100% {color: #509BE8}
+}
+
+.medium{
+	margin-top: 20px;
+}
