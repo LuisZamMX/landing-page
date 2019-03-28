@@ -24,9 +24,13 @@ h5, p, button{
 	font-family: sourceSans-light;
 }
 
-.btn{
+.comprar{
 	margin-bottom: 50px;
 	margin-top: 50px;
+}
+
+.btn-success{
+	margin-bottom: 30px;
 }
 
 .colores{
