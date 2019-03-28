@@ -2,30 +2,31 @@
 
 body {
 	padding-top: 50px;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 
-  background-image: url(../img/lp-background.jpg);
+	background-image: url(../img/lp-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 main {
-  flex: 1 0 auto;
+	flex: 1 0 auto;
 }
-      
+
 h1{
 	font-family: sourceSans-bold;
 	font-size: 70px;
 }
 
-h5, p{
+h5, p, button{
 	font-family: sourceSans-light;
 }
 
 .btn{
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .colores{
@@ -35,13 +36,22 @@ h5, p{
 }
 
 @keyframes colores{
-    0%   {color: #E84A4A}
-    25%  {color: #EE933A}
-    50%  {color: #ECEA40}
-    75%  {color: #7FE855}
-    100% {color: #E84A4A}
+	0%   {color: #E84A4A}
+	25%  {color: #EE933A}
+	50%  {color: #ECEA40}
+	75%  {color: #7FE855}
+	100% {color: #E84A4A}
 }
 
 .medium{
 	margin-top: 20px;
+	font-size: 50px;
+}
+
+.large{
+	font-size: 80px;
+}
+
+footer .row > .black-text{
+	padding-top: 30px;
 }
